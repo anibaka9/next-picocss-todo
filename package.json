@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@picocss/pico": "^1.5.10",
     "@types/node": "20.2.4",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
@@ -17,6 +18,8 @@
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "ts-localstorage": "^2.0.0",
+    "typescript": "5.0.4",
+    "uuid": "^9.0.0"
   }
 }
